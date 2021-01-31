@@ -1,0 +1,465 @@
+@font-face {
+    font-family: "Gill Sans";
+    src: url("Tipoletra/gillsans.woff");
+  }
+*{
+ 
+}
+html{
+    height: 100%;
+}
+
+body{ 
+    display: flex; 
+    flex-direction: column;
+    height: auto;
+    font-family: Arial;
+    color:#333;
+    background-color: white;
+    margin: 0;
+    font-size: 1.2rem;  
+    line-height: 1.3rem; 
+    height: 100%;
+    width: 100%;
+
+}
+h1{
+    font-size: 1rem;
+    line-height: 1.3rem;
+}
+
+main{
+    font-family: "Gill Sans";
+    margin-top: 40px;
+    flex: 1 0 auto; 
+}
+strong{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+}
+
+/*Footer*/
+.footer{
+    display: flex;
+    flex-shrink: 1; 
+    background-color: #F2DAC4;
+    margin-bottom: 0px;
+    justify-content: space-between;
+
+}
+
+.footer a{
+    text-decoration: none;
+    color:#333333;
+    
+}
+.footer ul{
+     margin-left: 20px;
+     margin-right: 20px;
+     list-style: none;
+     padding: 20px;
+    
+}
+
+.footer ul li{
+   font-size: 15px;
+   padding-bottom: 10px;
+}
+ul.ul2 li{
+    display: inline;
+    margin-right: 3px;
+    margin-left: 40px;
+}
+/* Margenes en general */
+.container{
+    margin: 0 auto;
+    max-width: 850px; 
+   
+}
+
+/* Todas las caracteristicas del menu de arriba */
+.header{
+   background-color: rgb(110, 94, 94); 
+   color: white;
+   margin-top: 0px;
+   padding: 0;
+   position: fixed;
+   left: 0;
+   top: 0;
+   right: 0;
+   overflow: hidden;
+   z-index: 20;
+   min-width: 50px;
+  
+}
+    .header a{
+    color:white;
+    text-decoration:none;
+    }
+
+
+/* Para separar el logo del menu*/
+
+.logo-nav-container{
+  display: flex;  
+  justify-content: space-around;
+  align-items: center;
+ 
+  
+  
+
+  
+/* Páginas */
+}
+.navegar2{
+    margin-right: 20px;
+    padding:0px; 
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+.navegation ul{
+    list-style: none;
+    padding:0; 
+    margin: 0;
+    font-size: 15px;
+    text-align: center;
+    margin-right: 100px;
+    margin-left: 180px ;
+   
+
+}
+.navegation ul li{
+    
+    display:inline-block;
+    
+    
+}
+.navegation ul li a{
+    color:white;
+    display: block;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+.navegation ul li a:hover {
+    background-color:#F1F3F0;
+    color: black;
+
+}
+
+/* Logo */
+img.logoI{
+    width: 150px;
+    height: 58px;
+   
+
+  }
+/* Iconos */
+img.carro{
+    width: 20px;
+    height: 20px;
+    border-radius: 20%;
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 30px ;
+}
+
+/*Etilo texto*/
+
+.introP{
+    letter-spacing: 0.4em;
+    font-family: "Gill Sans";
+    margin-top: 100px ;
+    text-align: center;
+    
+}
+div.QS{
+    background: url(Imagenes/lifestyle-city-portrait-of-amazing-attractive-young-brunette-woman-wearing-beige-trendy-clear-glasses-and-gold-jewelry-soft-warm-colors-minimalism-style.jpg) no-repeat left  ;
+    font-family: Gill Sans;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-bottom: 300px;
+    background-position: 0px 0px;
+
+    
+}
+div.QS p{
+  color: aliceblue;
+  word-spacing: 2px;
+  letter-spacing: 5px;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+div.QS h1{
+    padding-top: 200px;
+    text-shadow: rgba(0, 0, 0, 0.233) 5px 2px;
+    color : rgb(243, 201, 177);
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.precio{
+    color: #275AA9;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: ;
+}
+
+div.QSC{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 60px;
+    margin-top: 100px;
+ 
+}
+
+
+.elemento p{
+    font-size: 16px;
+    text-align: center;
+    overflow-wrap: break-word;
+}
+.elemento img{
+    cursor:pointer;
+}
+.efecto{
+    border: 1px solid black;
+    padding: 0px;
+    margin-right: 20px;  
+}
+
+
+/*Modelo REGISTRARSE y LOGEARSE*/
+.registro{
+    background: url("Imagenes/clothing-store-984396_1920.jpg");
+    background-size: cover;
+}
+.registrarse{
+    font-family: "Calibri";
+    background-color:#1E2732 ;
+    box-sizing: border-box;
+    padding: 70px;
+    margin: 60px;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 7px 13px 37px black;
+}
+.registrarse h1{
+    font-size: 35px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    margin-bottom: 60px;
+    text-align: center;
+
+}
+.registrarse img{
+    margin-top: 20px;
+}
+.registrarse h2{
+    font-size: 22px;
+    margin-bottom: 20px;
+    font-weight: bold;
+
+}
+.registrarse p{
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 40px;
+
+}
+.registrarse a{
+    text-decoration:wavy;
+    color:#545FD7;
+    
+}
+.registrarse a:hover{
+    text-decoration:wavy;
+    color: #6E5E5E;
+}
+
+
+.controles{
+    color: white;
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #131975; 
+    background-color:#1E2732;
+
+}
+.registrarse .botones{
+    width: 100%;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 12px;
+    background-color: #2F33AC; 
+}
+.registrarse .botones:hover{
+    background-color:#6E5E5E;
+}
+.controles2{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    margin-top: 0px;
+    margin-bottom: 100px;
+}
+/*  Catálogo  */
+
+.eleccion{
+    padding-top: 10px;
+    margin-top:20px;
+    display: flex;
+    vertical-align: middle;
+    text-align: center;
+    background-color:#f2dac4a2;
+    width: 100%;
+    justify-content: flex-end;
+    padding-bottom: 10px;
+ }
+
+ .eleccion p{
+     font-size: 20px;
+     margin-left: 10px;
+     padding-right: 2px;
+     margin-right: 2px;
+ }
+ .eleccion details{
+     margin-top: 20px;
+     margin-left: 30px;
+     margin-right: 30px;
+ }
+ .eleccion details ul li{
+     list-style: none;
+     text-align: start;
+     vertical-align: bottom;
+     
+ }
+ .eleccion details ul{
+    margin-bottom: 2px;
+}
+.eleccion a{
+    color: black;
+    text-decoration: none;
+}
+.eleccion a:hover{
+    color: black;
+    text-decoration:underline;
+}
+#emoji{
+    font-size: 50px;
+    margin-bottom: 2px;
+    margin-top: 10px;
+    letter-spacing: 20px;
+}
+.caja-catalogo{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: 1000px;
+    margin-left: 15vh;
+
+}
+.efecto2:hover {
+    transform: scale(1.2);
+    filter: opacity(.5);
+    direction: unset;
+}
+.efecto2{
+    transition:  .7s;
+    filter: .2s;
+}
+
+.efecto {
+    overflow: hidden;
+}
+.elemento{
+    
+}
+#titulo1{
+    text-align: center;
+    font-family: "Gill Sans";
+    font-size: 40px;
+    font-style: italic;
+    font-style:inherit;
+    margin-bottom: 100px;
+    margin-top: 60px;
+    
+}
+
+/* Mapa google maps*/
+.caja-ubicacion{ 
+    background: url(Imagenes/Fondo.png) no-repeat left;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+   display: flex;
+   flex-direction: row;
+   justify-content:space-around;
+   margin-bottom: 0px;
+   padding-top: 200px;
+    margin-top: 0px;
+
+   /*background-color:#bbb085;*/
+  
+
+}
+.ubicacion{
+    margin-left: 40px;
+   
+}
+
+.index object{
+    margin-left: 25%;
+    
+}
+    
+#parrafo{
+    margin-top: 60px;
+    text-align: center;
+    line-height: 40px;
+    font-family:'Times New Roman', Times, serif;
+}
+#secun{
+    background-color: #bbb085 ;
+}
+#doss{
+    text-shadow:1px 1px 2px black, 0 0 1em rgb(255, 166, 0), 0 0 0.2em rgb(139, 118, 0); 
+}
+.caja-ubicacion2{ 
+   display: flex;
+   flex-direction: row-reverse;
+   align-items: flex-start;
+   background-color: #bbb085 ;
+   justify-content: space-around;
+   
+   padding-bottom: 200px;
+   
+}
+.caja-ubicacion2 object{
+    margin-top: 30px;
+    box-shadow:1px 1px 2px black, 5px 0 2em rgb(255, 166, 0), 0 0 1em rgb(0, 139, 46);
+}
+
