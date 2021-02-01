@@ -393,6 +393,7 @@ div.QSC{
 
 .efecto {
     overflow: hidden;
+    line-height: 0;
 }
 .elemento{
     
